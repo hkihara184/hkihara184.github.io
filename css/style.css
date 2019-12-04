@@ -71,6 +71,7 @@
 
 	h2 {
 		font-size: 1.5em;
+		white-space: nowrap;
 	}
 
 	h3 {
@@ -108,7 +109,7 @@
 	header.major {
 		padding-bottom: 3em;
 		text-align: center;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 		header.major h2 {
@@ -515,9 +516,9 @@
 
 		.wrapper.style3 {
 			padding-bottom: 6em;
-			background: #82b440;
+			background: #FFF;
 			text-align: center;
-			color: white;
+			color: #555555;
 		}
 
 			.wrapper.style3 .container {
@@ -579,8 +580,8 @@
 		text-transform: uppercase;
 		font-size: 2em;
 		font-weight: 400;
-		background: #FFFFFF !important;
-		vertical-align: middle !important;
+		background: #FFFFFF;
+		vertical-align: middle;
 	}
 
 		#logo h1 {
@@ -672,11 +673,12 @@
 		padding: 6em 0em 3em 0em;
 		text-align: center;
 		text-transform: uppercase;
-		color: #FFF;
+		color: white;
 	}
 
 		#banner .container {
 			padding: 0em 8em;
+		}
 
 		#banner h2 {
 			display: inline-block;
@@ -687,7 +689,6 @@
 		}
 
 		#banner span, #banner p {
-			color: white !important;
 			display: block;
 			letter-spacing: 1px;
 			text-transform: uppercase;
@@ -730,12 +731,13 @@
 	#footer {
 		padding: 6em 0 2em 0;
 		text-align: center;
+		color: white;
 	}
 
 		#footer hr {
 			border-bottom: 1px solid;
 			border-color: inherit;
-			/*opacity: .05;*/
+			opacity: .05;
 		}
 
 		#footer .major h2 {
@@ -744,7 +746,7 @@
 
 		#footer .major .byline {
 			color: inherit;
-			/*opacity: .4;*/
+			opacity: .4;
 		}
 
 		#footer .copyright {
@@ -756,7 +758,7 @@
 
 	#copyright {
 		position: relative;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		text-align: center;
 		padding: 3em 0em 3em 0em;
 		color: inherit;
