@@ -95,6 +95,11 @@
 	    var touch_time = 0;
 	        //iPhone,iPad‚ð”»’è
 	    if (UA_iPhone || UA_iPad) {
+
+			document.body.ontouchstart = function() {};
+			document.body.addEventListener('touchstart', function() {}, true);
+			document.body.addEventListener('touchstart', function() {}, false);
+
 	        $("#link").bind({
 	            'touchstart mousedown': function (e) {
 	                touched = true;
