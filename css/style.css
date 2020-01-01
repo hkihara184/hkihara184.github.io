@@ -107,7 +107,7 @@
 	}
 
 	header.major {
-		padding-bottom: 3em;
+		padding-bottom: 1em;
 		text-align: center;
 		/*text-transform: uppercase;*/
 	}
@@ -729,7 +729,7 @@
 /* Footer */
 
 	#footer {
-		padding: 6em 0 2em 0;
+		padding: 1em 0 1em 0;
 		text-align: center;
 		color: white;
 	}
@@ -750,7 +750,7 @@
 		}
 
 		#footer .copyright {
-			margin-top: 3em;
+			margin-top: 1em;
 			text-align: center;
 		}
 
@@ -760,7 +760,7 @@
 		position: relative;
 		/*text-transform: uppercase;*/
 		text-align: center;
-		padding: 3em 0em 3em 0em;
+		padding: 0em 0em 0em 0em;
 		color: inherit;
 		opacity: .40;
 	}
